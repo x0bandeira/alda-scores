@@ -1,0 +1,42 @@
+bassoon "main":
+  (tempo 200)
+  (quant 60)
+  o1 g g g g d d d d c c c c e e e e
+  o2 d d d d c c c c e e e e g g g g
+  o3 c c c c e e e e d d d d g g g g
+  o1 g g g g d d d d c c c c e e e e
+  o2 d d d d c c c c e e e e g g g g
+  o3 c c c c e e e e d d d d g g g g
+
+  (tempo 100)
+  (quant 99)
+  o2 d d g g
+  o1 e e c c
+  o1 g g f+ g
+  o1 e2 d g r g
+
+midi-sitar "sec":
+  (tempo 200)
+  (quant 60)
+  o5 d d d- d a a a a g g g- g b b b b
+  o6 a a a- a g g g g b b b- b d d d d
+  o4 g g g- g b b b b a a a- a d d d d
+  o5 d d d- d a a a a g g g- g b b b b
+  o6 a a a- a g g g g b b b- b d d d d
+  o4 g g g- g b b b b a a a- a d d d d
+
+midi-bass-and-lead "super":
+  (tempo 400)
+  (quant 10)
+  o5 g g g g d d d d c c c c e e e e
+  o5 g g g g d d d d c c c c e e e e
+  o6 d d d d c c c c e e e e g g g g
+  o6 d d d d c c c c e e e e g g g g
+  o3 c c c c e e e e d d d d (quant 100)g f+ g g
+  o3 (quant 10)c c c c e e e e d d d d (quant 100)g f+ g g
+  o5 (quant 10)g g g g d d d d c c c c e e e e
+  o5 g g g g d d d d c c c c e e e e
+  o6 d d d d c c c c e e e e g g g g
+  o6 d d d d c c c c e e e e g g g g
+  o4 c c c c e e e e d d d d (quant 100)g f+ g g
+  o4 (quant 10)c c c c e e e e d d d d (quant 100)g f+ g g
